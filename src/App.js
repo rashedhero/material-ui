@@ -14,6 +14,7 @@ import PostDetails from './components/PostDetails/PostDetails';
 
 
 
+
 function App() {
   
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/post/:postId">
           <PostDetails/>
             </Route>
+            
         <Route exact path="/"> 
         <Home/>
         </Route>

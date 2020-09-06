@@ -40,7 +40,7 @@ const Post = (props) => {
         </CardActionArea>
         <CardActions>
           
-        <Button variant="contained" color="secondary"><Link to={`/post/${id}`}>See Info</Link></Button>
+        <Button variant="contained" color="secondary"><Link to={`/post/${id}`}>See Detail</Link></Button>
          
         </CardActions>
       </Card>
